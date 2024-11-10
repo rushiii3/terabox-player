@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "terabox-player",
+    "name": "Terabox Player",
     "slug": "terabox-player",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hrushiop.teraboxplayer"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hrushiop.teraboxplayer"
     },
     "web": {
       "bundler": "metro",
