@@ -55,7 +55,6 @@
           "imageWidth": 400
         }
       ],
-      "react-native-video",
       "expo-video"
     ],
     "experiments": {

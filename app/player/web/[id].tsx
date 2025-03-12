@@ -36,10 +36,6 @@ const Page = () => {
     return unsubscribe;
   }, [navigation]);
 
-  console.log(
-    `https://www.1024terabox.com/sharing/embed?surl=${id}&autoplay=true&mute=false`
-  );
-
   const htmlContent = `
       <html>
         <body style="margin: 0; background-color: black;">
